@@ -10,11 +10,80 @@
 		03FC29A292ACC40490383A1F /* Pods_Plugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */; };
 		20C0B05DCFC8E3958A738AF2 /* Pods_PluginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */; };
 		50ADFF92201F53D600D50D53 /* Plugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFF88201F53D600D50D53 /* Plugin.framework */; };
-		50ADFF97201F53D600D50D53 /* PluginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50ADFF96201F53D600D50D53 /* PluginTests.swift */; };
-		50ADFF99201F53D600D50D53 /* Plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 50ADFF8B201F53D600D50D53 /* Plugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50ADFFA42020D75100D50D53 /* Capacitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFFA52020D75100D50D53 /* Capacitor.framework */; };
-		50ADFFA82020EE4F00D50D53 /* Plugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ADFFA72020EE4F00D50D53 /* Plugin.m */; };
-		50E1A94820377CB70090CE1A /* Plugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E1A94720377CB70090CE1A /* Plugin.swift */; };
+		BBCDF6A02989595E0058FE23 /* InstallMode.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF64D2989595E0058FE23 /* InstallMode.h */; };
+		BBCDF6A12989595E0058FE23 /* CodePushPackageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF64E2989595E0058FE23 /* CodePushPackageManager.h */; };
+		BBCDF6A22989595E0058FE23 /* CodePushPackageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF64F2989595E0058FE23 /* CodePushPackageManager.m */; };
+		BBCDF6A32989595E0058FE23 /* StatusReport.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6502989595E0058FE23 /* StatusReport.m */; };
+		BBCDF6A42989595E0058FE23 /* UpdateHashUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6512989595E0058FE23 /* UpdateHashUtils.m */; };
+		BBCDF6A52989595E0058FE23 /* CDVWKWebViewEngine+CodePush.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6522989595E0058FE23 /* CDVWKWebViewEngine+CodePush.m */; };
+		BBCDF6A62989595E0058FE23 /* CodePushReportingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6532989595E0058FE23 /* CodePushReportingManager.m */; };
+		BBCDF6A72989595E0058FE23 /* CodePushPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF6542989595E0058FE23 /* CodePushPlugin.h */; };
+		BBCDF6A82989595E0058FE23 /* CodePushPackageMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6552989595E0058FE23 /* CodePushPackageMetadata.m */; };
+		BBCDF6A92989595E0058FE23 /* CodePushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6562989595E0058FE23 /* CodePushPlugin.m */; };
+		BBCDF6AA2989595E0058FE23 /* InstallOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6572989595E0058FE23 /* InstallOptions.m */; };
+		BBCDF6AB2989595E0058FE23 /* StatusReport.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF6582989595E0058FE23 /* StatusReport.h */; };
+		BBCDF6AC2989595E0058FE23 /* Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF6592989595E0058FE23 /* Utilities.h */; };
+		BBCDF6AD2989595E0058FE23 /* CodePush.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF65A2989595E0058FE23 /* CodePush.h */; };
+		BBCDF6AE2989595E0058FE23 /* CodePushPackageMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF65B2989595E0058FE23 /* CodePushPackageMetadata.h */; };
+		BBCDF6AF2989595E0058FE23 /* CodePushMF_Base64Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF65D2989595E0058FE23 /* CodePushMF_Base64Additions.h */; };
+		BBCDF6B02989595E0058FE23 /* CodePushMF_Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF65E2989595E0058FE23 /* CodePushMF_Base64Additions.m */; };
+		BBCDF6B12989595E0058FE23 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF65F2989595E0058FE23 /* Utilities.m */; };
+		BBCDF6B22989595E0058FE23 /* CodePush.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6602989595E0058FE23 /* CodePush.m */; };
+		BBCDF6B32989595E0058FE23 /* CodePushJWTClaimsSetSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF6642989595E0058FE23 /* CodePushJWTClaimsSetSerializer.h */; };
+		BBCDF6B42989595E0058FE23 /* CodePushJWTClaim.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6652989595E0058FE23 /* CodePushJWTClaim.m */; };
+		BBCDF6B52989595E0058FE23 /* CodePushJWTClaimsSet.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF6662989595E0058FE23 /* CodePushJWTClaimsSet.h */; };
+		BBCDF6B62989595E0058FE23 /* CodePushJWTClaimsSetVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6672989595E0058FE23 /* CodePushJWTClaimsSetVerifier.m */; };
+		BBCDF6B72989595E0058FE23 /* CodePushJWTClaimsSetSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6682989595E0058FE23 /* CodePushJWTClaimsSetSerializer.m */; };
+		BBCDF6B82989595E0058FE23 /* CodePushJWTClaim.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF6692989595E0058FE23 /* CodePushJWTClaim.h */; };
+		BBCDF6B92989595E0058FE23 /* CodePushJWTClaimsSetVerifier.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF66A2989595E0058FE23 /* CodePushJWTClaimsSetVerifier.h */; };
+		BBCDF6BA2989595E0058FE23 /* CodePushJWTClaimsSet.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF66B2989595E0058FE23 /* CodePushJWTClaimsSet.m */; };
+		BBCDF6BB2989595E0058FE23 /* CodePushJWT.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF66D2989595E0058FE23 /* CodePushJWT.h */; };
+		BBCDF6BC2989595E0058FE23 /* CodePushJWTAlgorithmDataHolderChain.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6702989595E0058FE23 /* CodePushJWTAlgorithmDataHolderChain.m */; };
+		BBCDF6BD2989595E0058FE23 /* CodePushJWTAlgorithmDataHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF6712989595E0058FE23 /* CodePushJWTAlgorithmDataHolder.h */; };
+		BBCDF6BE2989595E0058FE23 /* CodePushJWTAlgorithmDataHolderChain.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF6722989595E0058FE23 /* CodePushJWTAlgorithmDataHolderChain.h */; };
+		BBCDF6BF2989595E0058FE23 /* CodePushJWTAlgorithmDataHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6732989595E0058FE23 /* CodePushJWTAlgorithmDataHolder.m */; };
+		BBCDF6C02989595E0058FE23 /* CodePushJWTAlgorithmHSBase.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF6752989595E0058FE23 /* CodePushJWTAlgorithmHSBase.h */; };
+		BBCDF6C12989595E0058FE23 /* CodePushJWTAlgorithmHSBase.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6762989595E0058FE23 /* CodePushJWTAlgorithmHSBase.m */; };
+		BBCDF6C22989595E0058FE23 /* CodePushJWTAlgorithmRSBase.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF6782989595E0058FE23 /* CodePushJWTAlgorithmRSBase.h */; };
+		BBCDF6C32989595E0058FE23 /* CodePushJWTRSAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF6792989595E0058FE23 /* CodePushJWTRSAlgorithm.h */; };
+		BBCDF6C42989595E0058FE23 /* CodePushJWTAlgorithmRSBase.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF67A2989595E0058FE23 /* CodePushJWTAlgorithmRSBase.m */; };
+		BBCDF6C52989595E0058FE23 /* CodePushJWTCryptoKey.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF67C2989595E0058FE23 /* CodePushJWTCryptoKey.h */; };
+		BBCDF6C62989595E0058FE23 /* CodePushJWTCryptoKeyExtractor.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF67D2989595E0058FE23 /* CodePushJWTCryptoKeyExtractor.m */; };
+		BBCDF6C72989595E0058FE23 /* CodePushJWTCryptoSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF67E2989595E0058FE23 /* CodePushJWTCryptoSecurity.m */; };
+		BBCDF6C82989595E0058FE23 /* CodePushJWTCryptoKeyExtractor.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF67F2989595E0058FE23 /* CodePushJWTCryptoKeyExtractor.h */; };
+		BBCDF6C92989595E0058FE23 /* CodePushJWTCryptoKey.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6802989595E0058FE23 /* CodePushJWTCryptoKey.m */; };
+		BBCDF6CA2989595E0058FE23 /* CodePushJWTCryptoSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF6812989595E0058FE23 /* CodePushJWTCryptoSecurity.h */; };
+		BBCDF6CB2989595E0058FE23 /* CodePushJWTAlgorithmESBase.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6832989595E0058FE23 /* CodePushJWTAlgorithmESBase.m */; };
+		BBCDF6CC2989595E0058FE23 /* CodePushJWTAlgorithmESBase.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF6842989595E0058FE23 /* CodePushJWTAlgorithmESBase.h */; };
+		BBCDF6CD2989595E0058FE23 /* CodePushJWTAlgorithmFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6862989595E0058FE23 /* CodePushJWTAlgorithmFactory.m */; };
+		BBCDF6CE2989595E0058FE23 /* CodePushJWTAlgorithmNone.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6872989595E0058FE23 /* CodePushJWTAlgorithmNone.m */; };
+		BBCDF6CF2989595E0058FE23 /* CodePushJWTAlgorithmFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF6882989595E0058FE23 /* CodePushJWTAlgorithmFactory.h */; };
+		BBCDF6D02989595E0058FE23 /* CodePushJWTAlgorithm.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF6892989595E0058FE23 /* CodePushJWTAlgorithm.h */; };
+		BBCDF6D12989595E0058FE23 /* CodePushJWTAlgorithmNone.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF68A2989595E0058FE23 /* CodePushJWTAlgorithmNone.h */; };
+		BBCDF6D22989595E0058FE23 /* CodePushJWTBase64Coder.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF68C2989595E0058FE23 /* CodePushJWTBase64Coder.h */; };
+		BBCDF6D32989595E0058FE23 /* CodePushJWTErrorDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF68D2989595E0058FE23 /* CodePushJWTErrorDescription.h */; };
+		BBCDF6D42989595E0058FE23 /* CodePushJWTDeprecations.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF68E2989595E0058FE23 /* CodePushJWTDeprecations.h */; };
+		BBCDF6D52989595E0058FE23 /* CodePushJWTBase64Coder.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF68F2989595E0058FE23 /* CodePushJWTBase64Coder.m */; };
+		BBCDF6D62989595E0058FE23 /* CodePushJWTErrorDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6902989595E0058FE23 /* CodePushJWTErrorDescription.m */; };
+		BBCDF6D72989595E0058FE23 /* CodePushJWTCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF6922989595E0058FE23 /* CodePushJWTCoding.h */; };
+		BBCDF6D82989595F0058FE23 /* CodePushJWTCoding+VersionThree.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF6932989595E0058FE23 /* CodePushJWTCoding+VersionThree.h */; };
+		BBCDF6D92989595F0058FE23 /* CodePushJWTCoding+VersionOne.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF6942989595E0058FE23 /* CodePushJWTCoding+VersionOne.h */; };
+		BBCDF6DA2989595F0058FE23 /* CodePushJWTCoding+ResultTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF6952989595E0058FE23 /* CodePushJWTCoding+ResultTypes.h */; };
+		BBCDF6DB2989595F0058FE23 /* CodePushJWTCoding+VersionTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6962989595E0058FE23 /* CodePushJWTCoding+VersionTwo.m */; };
+		BBCDF6DC2989595F0058FE23 /* CodePushJWTCoding+VersionThree.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6972989595E0058FE23 /* CodePushJWTCoding+VersionThree.m */; };
+		BBCDF6DD2989595F0058FE23 /* CodePushJWTCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6982989595E0058FE23 /* CodePushJWTCoding.m */; };
+		BBCDF6DE2989595F0058FE23 /* CodePushJWTCoding+ResultTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6992989595E0058FE23 /* CodePushJWTCoding+ResultTypes.m */; };
+		BBCDF6DF2989595F0058FE23 /* CodePushJWTCoding+VersionOne.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF69A2989595E0058FE23 /* CodePushJWTCoding+VersionOne.m */; };
+		BBCDF6E02989595F0058FE23 /* CodePushJWTCoding+VersionTwo.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF69B2989595E0058FE23 /* CodePushJWTCoding+VersionTwo.h */; };
+		BBCDF6E12989595F0058FE23 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BBCDF69C2989595E0058FE23 /* LICENSE */; };
+		BBCDF6E22989595F0058FE23 /* UpdateHashUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF69D2989595E0058FE23 /* UpdateHashUtils.h */; };
+		BBCDF6E32989595F0058FE23 /* InstallOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF69E2989595E0058FE23 /* InstallOptions.h */; };
+		BBCDF6E42989595F0058FE23 /* CodePushReportingManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF69F2989595E0058FE23 /* CodePushReportingManager.h */; };
+		BBCDF6E729895B0F0058FE23 /* Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6E629895B0F0058FE23 /* Base.swift */; };
+		BBCDF6E929895C130058FE23 /* FilesystemUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6E829895C130058FE23 /* FilesystemUtils.swift */; };
+		BBCDF6EB29895CBB0058FE23 /* HttpRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6EA29895CBB0058FE23 /* HttpRequestHandler.swift */; };
+		BBCDF6ED29895CF80058FE23 /* CapacitorCommunityUrlRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF6EC29895CF80058FE23 /* CapacitorCommunityUrlRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,17 +99,84 @@
 /* Begin PBXFileReference section */
 		3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50ADFF88201F53D600D50D53 /* Plugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Plugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50ADFF8B201F53D600D50D53 /* Plugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Plugin.h; sourceTree = "<group>"; };
-		50ADFF8C201F53D600D50D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50ADFF91201F53D600D50D53 /* PluginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PluginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		50ADFF96201F53D600D50D53 /* PluginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginTests.swift; sourceTree = "<group>"; };
-		50ADFF98201F53D600D50D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50ADFFA52020D75100D50D53 /* Capacitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Capacitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50ADFFA72020EE4F00D50D53 /* Plugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Plugin.m; sourceTree = "<group>"; };
-		50E1A94720377CB70090CE1A /* Plugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plugin.swift; sourceTree = "<group>"; };
 		5E23F77F099397094342571A /* Pods-Plugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.debug.xcconfig"; sourceTree = "<group>"; };
 		91781294A431A2A7CC6EB714 /* Pods-Plugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.release.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.release.xcconfig"; sourceTree = "<group>"; };
 		96ED1B6440D6672E406C8D19 /* Pods-PluginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBCDF64D2989595E0058FE23 /* InstallMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstallMode.h; sourceTree = "<group>"; };
+		BBCDF64E2989595E0058FE23 /* CodePushPackageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushPackageManager.h; sourceTree = "<group>"; };
+		BBCDF64F2989595E0058FE23 /* CodePushPackageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushPackageManager.m; sourceTree = "<group>"; };
+		BBCDF6502989595E0058FE23 /* StatusReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusReport.m; sourceTree = "<group>"; };
+		BBCDF6512989595E0058FE23 /* UpdateHashUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateHashUtils.m; sourceTree = "<group>"; };
+		BBCDF6522989595E0058FE23 /* CDVWKWebViewEngine+CodePush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CDVWKWebViewEngine+CodePush.m"; sourceTree = "<group>"; };
+		BBCDF6532989595E0058FE23 /* CodePushReportingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushReportingManager.m; sourceTree = "<group>"; };
+		BBCDF6542989595E0058FE23 /* CodePushPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushPlugin.h; sourceTree = "<group>"; };
+		BBCDF6552989595E0058FE23 /* CodePushPackageMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushPackageMetadata.m; sourceTree = "<group>"; };
+		BBCDF6562989595E0058FE23 /* CodePushPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushPlugin.m; sourceTree = "<group>"; };
+		BBCDF6572989595E0058FE23 /* InstallOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstallOptions.m; sourceTree = "<group>"; };
+		BBCDF6582989595E0058FE23 /* StatusReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusReport.h; sourceTree = "<group>"; };
+		BBCDF6592989595E0058FE23 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		BBCDF65A2989595E0058FE23 /* CodePush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePush.h; sourceTree = "<group>"; };
+		BBCDF65B2989595E0058FE23 /* CodePushPackageMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushPackageMetadata.h; sourceTree = "<group>"; };
+		BBCDF65D2989595E0058FE23 /* CodePushMF_Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushMF_Base64Additions.h; sourceTree = "<group>"; };
+		BBCDF65E2989595E0058FE23 /* CodePushMF_Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushMF_Base64Additions.m; sourceTree = "<group>"; };
+		BBCDF65F2989595E0058FE23 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		BBCDF6602989595E0058FE23 /* CodePush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePush.m; sourceTree = "<group>"; };
+		BBCDF6642989595E0058FE23 /* CodePushJWTClaimsSetSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushJWTClaimsSetSerializer.h; sourceTree = "<group>"; };
+		BBCDF6652989595E0058FE23 /* CodePushJWTClaim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushJWTClaim.m; sourceTree = "<group>"; };
+		BBCDF6662989595E0058FE23 /* CodePushJWTClaimsSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushJWTClaimsSet.h; sourceTree = "<group>"; };
+		BBCDF6672989595E0058FE23 /* CodePushJWTClaimsSetVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushJWTClaimsSetVerifier.m; sourceTree = "<group>"; };
+		BBCDF6682989595E0058FE23 /* CodePushJWTClaimsSetSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushJWTClaimsSetSerializer.m; sourceTree = "<group>"; };
+		BBCDF6692989595E0058FE23 /* CodePushJWTClaim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushJWTClaim.h; sourceTree = "<group>"; };
+		BBCDF66A2989595E0058FE23 /* CodePushJWTClaimsSetVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushJWTClaimsSetVerifier.h; sourceTree = "<group>"; };
+		BBCDF66B2989595E0058FE23 /* CodePushJWTClaimsSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushJWTClaimsSet.m; sourceTree = "<group>"; };
+		BBCDF66D2989595E0058FE23 /* CodePushJWT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushJWT.h; sourceTree = "<group>"; };
+		BBCDF6702989595E0058FE23 /* CodePushJWTAlgorithmDataHolderChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushJWTAlgorithmDataHolderChain.m; sourceTree = "<group>"; };
+		BBCDF6712989595E0058FE23 /* CodePushJWTAlgorithmDataHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushJWTAlgorithmDataHolder.h; sourceTree = "<group>"; };
+		BBCDF6722989595E0058FE23 /* CodePushJWTAlgorithmDataHolderChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushJWTAlgorithmDataHolderChain.h; sourceTree = "<group>"; };
+		BBCDF6732989595E0058FE23 /* CodePushJWTAlgorithmDataHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushJWTAlgorithmDataHolder.m; sourceTree = "<group>"; };
+		BBCDF6752989595E0058FE23 /* CodePushJWTAlgorithmHSBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushJWTAlgorithmHSBase.h; sourceTree = "<group>"; };
+		BBCDF6762989595E0058FE23 /* CodePushJWTAlgorithmHSBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushJWTAlgorithmHSBase.m; sourceTree = "<group>"; };
+		BBCDF6782989595E0058FE23 /* CodePushJWTAlgorithmRSBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushJWTAlgorithmRSBase.h; sourceTree = "<group>"; };
+		BBCDF6792989595E0058FE23 /* CodePushJWTRSAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushJWTRSAlgorithm.h; sourceTree = "<group>"; };
+		BBCDF67A2989595E0058FE23 /* CodePushJWTAlgorithmRSBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushJWTAlgorithmRSBase.m; sourceTree = "<group>"; };
+		BBCDF67C2989595E0058FE23 /* CodePushJWTCryptoKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushJWTCryptoKey.h; sourceTree = "<group>"; };
+		BBCDF67D2989595E0058FE23 /* CodePushJWTCryptoKeyExtractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushJWTCryptoKeyExtractor.m; sourceTree = "<group>"; };
+		BBCDF67E2989595E0058FE23 /* CodePushJWTCryptoSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushJWTCryptoSecurity.m; sourceTree = "<group>"; };
+		BBCDF67F2989595E0058FE23 /* CodePushJWTCryptoKeyExtractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushJWTCryptoKeyExtractor.h; sourceTree = "<group>"; };
+		BBCDF6802989595E0058FE23 /* CodePushJWTCryptoKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushJWTCryptoKey.m; sourceTree = "<group>"; };
+		BBCDF6812989595E0058FE23 /* CodePushJWTCryptoSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushJWTCryptoSecurity.h; sourceTree = "<group>"; };
+		BBCDF6832989595E0058FE23 /* CodePushJWTAlgorithmESBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushJWTAlgorithmESBase.m; sourceTree = "<group>"; };
+		BBCDF6842989595E0058FE23 /* CodePushJWTAlgorithmESBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushJWTAlgorithmESBase.h; sourceTree = "<group>"; };
+		BBCDF6862989595E0058FE23 /* CodePushJWTAlgorithmFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushJWTAlgorithmFactory.m; sourceTree = "<group>"; };
+		BBCDF6872989595E0058FE23 /* CodePushJWTAlgorithmNone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushJWTAlgorithmNone.m; sourceTree = "<group>"; };
+		BBCDF6882989595E0058FE23 /* CodePushJWTAlgorithmFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushJWTAlgorithmFactory.h; sourceTree = "<group>"; };
+		BBCDF6892989595E0058FE23 /* CodePushJWTAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushJWTAlgorithm.h; sourceTree = "<group>"; };
+		BBCDF68A2989595E0058FE23 /* CodePushJWTAlgorithmNone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushJWTAlgorithmNone.h; sourceTree = "<group>"; };
+		BBCDF68C2989595E0058FE23 /* CodePushJWTBase64Coder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushJWTBase64Coder.h; sourceTree = "<group>"; };
+		BBCDF68D2989595E0058FE23 /* CodePushJWTErrorDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushJWTErrorDescription.h; sourceTree = "<group>"; };
+		BBCDF68E2989595E0058FE23 /* CodePushJWTDeprecations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushJWTDeprecations.h; sourceTree = "<group>"; };
+		BBCDF68F2989595E0058FE23 /* CodePushJWTBase64Coder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushJWTBase64Coder.m; sourceTree = "<group>"; };
+		BBCDF6902989595E0058FE23 /* CodePushJWTErrorDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushJWTErrorDescription.m; sourceTree = "<group>"; };
+		BBCDF6922989595E0058FE23 /* CodePushJWTCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushJWTCoding.h; sourceTree = "<group>"; };
+		BBCDF6932989595E0058FE23 /* CodePushJWTCoding+VersionThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CodePushJWTCoding+VersionThree.h"; sourceTree = "<group>"; };
+		BBCDF6942989595E0058FE23 /* CodePushJWTCoding+VersionOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CodePushJWTCoding+VersionOne.h"; sourceTree = "<group>"; };
+		BBCDF6952989595E0058FE23 /* CodePushJWTCoding+ResultTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CodePushJWTCoding+ResultTypes.h"; sourceTree = "<group>"; };
+		BBCDF6962989595E0058FE23 /* CodePushJWTCoding+VersionTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CodePushJWTCoding+VersionTwo.m"; sourceTree = "<group>"; };
+		BBCDF6972989595E0058FE23 /* CodePushJWTCoding+VersionThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CodePushJWTCoding+VersionThree.m"; sourceTree = "<group>"; };
+		BBCDF6982989595E0058FE23 /* CodePushJWTCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodePushJWTCoding.m; sourceTree = "<group>"; };
+		BBCDF6992989595E0058FE23 /* CodePushJWTCoding+ResultTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CodePushJWTCoding+ResultTypes.m"; sourceTree = "<group>"; };
+		BBCDF69A2989595E0058FE23 /* CodePushJWTCoding+VersionOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CodePushJWTCoding+VersionOne.m"; sourceTree = "<group>"; };
+		BBCDF69B2989595E0058FE23 /* CodePushJWTCoding+VersionTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CodePushJWTCoding+VersionTwo.h"; sourceTree = "<group>"; };
+		BBCDF69C2989595E0058FE23 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BBCDF69D2989595E0058FE23 /* UpdateHashUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateHashUtils.h; sourceTree = "<group>"; };
+		BBCDF69E2989595E0058FE23 /* InstallOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstallOptions.h; sourceTree = "<group>"; };
+		BBCDF69F2989595E0058FE23 /* CodePushReportingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodePushReportingManager.h; sourceTree = "<group>"; };
+		BBCDF6E629895B0F0058FE23 /* Base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Base.swift; sourceTree = "<group>"; };
+		BBCDF6E829895C130058FE23 /* FilesystemUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesystemUtils.swift; sourceTree = "<group>"; };
+		BBCDF6EA29895CBB0058FE23 /* HttpRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRequestHandler.swift; sourceTree = "<group>"; };
+		BBCDF6EC29895CF80058FE23 /* CapacitorCommunityUrlRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapacitorCommunityUrlRequest.swift; sourceTree = "<group>"; };
 		F65BB2953ECE002E1EF3E424 /* Pods-PluginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PluginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PluginTests/Pods-PluginTests.release.xcconfig"; sourceTree = "<group>"; };
 		F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PluginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -71,7 +207,6 @@
 			isa = PBXGroup;
 			children = (
 				50ADFF8A201F53D600D50D53 /* Plugin */,
-				50ADFF95201F53D600D50D53 /* PluginTests */,
 				50ADFF89201F53D600D50D53 /* Products */,
 				8C8E7744173064A9F6D438E3 /* Pods */,
 				A797B9EFA3DCEFEA1FBB66A9 /* Frameworks */,
@@ -90,21 +225,31 @@
 		50ADFF8A201F53D600D50D53 /* Plugin */ = {
 			isa = PBXGroup;
 			children = (
-				50E1A94720377CB70090CE1A /* Plugin.swift */,
-				50ADFF8B201F53D600D50D53 /* Plugin.h */,
-				50ADFFA72020EE4F00D50D53 /* Plugin.m */,
-				50ADFF8C201F53D600D50D53 /* Info.plist */,
+				BBCDF65C2989595E0058FE23 /* Base64 */,
+				BBCDF6E529895AF60058FE23 /* Http */,
+				BBCDF6612989595E0058FE23 /* JWT */,
+				BBCDF6522989595E0058FE23 /* CDVWKWebViewEngine+CodePush.m */,
+				BBCDF65A2989595E0058FE23 /* CodePush.h */,
+				BBCDF6602989595E0058FE23 /* CodePush.m */,
+				BBCDF64E2989595E0058FE23 /* CodePushPackageManager.h */,
+				BBCDF64F2989595E0058FE23 /* CodePushPackageManager.m */,
+				BBCDF65B2989595E0058FE23 /* CodePushPackageMetadata.h */,
+				BBCDF6552989595E0058FE23 /* CodePushPackageMetadata.m */,
+				BBCDF6542989595E0058FE23 /* CodePushPlugin.h */,
+				BBCDF6562989595E0058FE23 /* CodePushPlugin.m */,
+				BBCDF69F2989595E0058FE23 /* CodePushReportingManager.h */,
+				BBCDF6532989595E0058FE23 /* CodePushReportingManager.m */,
+				BBCDF64D2989595E0058FE23 /* InstallMode.h */,
+				BBCDF69E2989595E0058FE23 /* InstallOptions.h */,
+				BBCDF6572989595E0058FE23 /* InstallOptions.m */,
+				BBCDF6582989595E0058FE23 /* StatusReport.h */,
+				BBCDF6502989595E0058FE23 /* StatusReport.m */,
+				BBCDF69D2989595E0058FE23 /* UpdateHashUtils.h */,
+				BBCDF6512989595E0058FE23 /* UpdateHashUtils.m */,
+				BBCDF6592989595E0058FE23 /* Utilities.h */,
+				BBCDF65F2989595E0058FE23 /* Utilities.m */,
 			);
 			path = Plugin;
-			sourceTree = "<group>";
-		};
-		50ADFF95201F53D600D50D53 /* PluginTests */ = {
-			isa = PBXGroup;
-			children = (
-				50ADFF96201F53D600D50D53 /* PluginTests.swift */,
-				50ADFF98201F53D600D50D53 /* Info.plist */,
-			);
-			path = PluginTests;
 			sourceTree = "<group>";
 		};
 		8C8E7744173064A9F6D438E3 /* Pods */ = {
@@ -128,6 +273,176 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BBCDF65C2989595E0058FE23 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF65D2989595E0058FE23 /* CodePushMF_Base64Additions.h */,
+				BBCDF65E2989595E0058FE23 /* CodePushMF_Base64Additions.m */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		BBCDF6612989595E0058FE23 /* JWT */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF6622989595E0058FE23 /* Core */,
+				BBCDF69C2989595E0058FE23 /* LICENSE */,
+			);
+			path = JWT;
+			sourceTree = "<group>";
+		};
+		BBCDF6622989595E0058FE23 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF6632989595E0058FE23 /* ClaimSet */,
+				BBCDF66C2989595E0058FE23 /* FrameworkSupplement */,
+				BBCDF66E2989595E0058FE23 /* Algorithms */,
+				BBCDF68B2989595E0058FE23 /* Supplement */,
+				BBCDF6912989595E0058FE23 /* Coding */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		BBCDF6632989595E0058FE23 /* ClaimSet */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF6642989595E0058FE23 /* CodePushJWTClaimsSetSerializer.h */,
+				BBCDF6652989595E0058FE23 /* CodePushJWTClaim.m */,
+				BBCDF6662989595E0058FE23 /* CodePushJWTClaimsSet.h */,
+				BBCDF6672989595E0058FE23 /* CodePushJWTClaimsSetVerifier.m */,
+				BBCDF6682989595E0058FE23 /* CodePushJWTClaimsSetSerializer.m */,
+				BBCDF6692989595E0058FE23 /* CodePushJWTClaim.h */,
+				BBCDF66A2989595E0058FE23 /* CodePushJWTClaimsSetVerifier.h */,
+				BBCDF66B2989595E0058FE23 /* CodePushJWTClaimsSet.m */,
+			);
+			path = ClaimSet;
+			sourceTree = "<group>";
+		};
+		BBCDF66C2989595E0058FE23 /* FrameworkSupplement */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF66D2989595E0058FE23 /* CodePushJWT.h */,
+			);
+			path = FrameworkSupplement;
+			sourceTree = "<group>";
+		};
+		BBCDF66E2989595E0058FE23 /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF66F2989595E0058FE23 /* Holders */,
+				BBCDF6742989595E0058FE23 /* HSFamily */,
+				BBCDF6772989595E0058FE23 /* RSFamily */,
+				BBCDF6822989595E0058FE23 /* ESFamily */,
+				BBCDF6852989595E0058FE23 /* Base */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		BBCDF66F2989595E0058FE23 /* Holders */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF6702989595E0058FE23 /* CodePushJWTAlgorithmDataHolderChain.m */,
+				BBCDF6712989595E0058FE23 /* CodePushJWTAlgorithmDataHolder.h */,
+				BBCDF6722989595E0058FE23 /* CodePushJWTAlgorithmDataHolderChain.h */,
+				BBCDF6732989595E0058FE23 /* CodePushJWTAlgorithmDataHolder.m */,
+			);
+			path = Holders;
+			sourceTree = "<group>";
+		};
+		BBCDF6742989595E0058FE23 /* HSFamily */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF6752989595E0058FE23 /* CodePushJWTAlgorithmHSBase.h */,
+				BBCDF6762989595E0058FE23 /* CodePushJWTAlgorithmHSBase.m */,
+			);
+			path = HSFamily;
+			sourceTree = "<group>";
+		};
+		BBCDF6772989595E0058FE23 /* RSFamily */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF6782989595E0058FE23 /* CodePushJWTAlgorithmRSBase.h */,
+				BBCDF6792989595E0058FE23 /* CodePushJWTRSAlgorithm.h */,
+				BBCDF67A2989595E0058FE23 /* CodePushJWTAlgorithmRSBase.m */,
+				BBCDF67B2989595E0058FE23 /* RSKeys */,
+			);
+			path = RSFamily;
+			sourceTree = "<group>";
+		};
+		BBCDF67B2989595E0058FE23 /* RSKeys */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF67C2989595E0058FE23 /* CodePushJWTCryptoKey.h */,
+				BBCDF67D2989595E0058FE23 /* CodePushJWTCryptoKeyExtractor.m */,
+				BBCDF67E2989595E0058FE23 /* CodePushJWTCryptoSecurity.m */,
+				BBCDF67F2989595E0058FE23 /* CodePushJWTCryptoKeyExtractor.h */,
+				BBCDF6802989595E0058FE23 /* CodePushJWTCryptoKey.m */,
+				BBCDF6812989595E0058FE23 /* CodePushJWTCryptoSecurity.h */,
+			);
+			path = RSKeys;
+			sourceTree = "<group>";
+		};
+		BBCDF6822989595E0058FE23 /* ESFamily */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF6832989595E0058FE23 /* CodePushJWTAlgorithmESBase.m */,
+				BBCDF6842989595E0058FE23 /* CodePushJWTAlgorithmESBase.h */,
+			);
+			path = ESFamily;
+			sourceTree = "<group>";
+		};
+		BBCDF6852989595E0058FE23 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF6862989595E0058FE23 /* CodePushJWTAlgorithmFactory.m */,
+				BBCDF6872989595E0058FE23 /* CodePushJWTAlgorithmNone.m */,
+				BBCDF6882989595E0058FE23 /* CodePushJWTAlgorithmFactory.h */,
+				BBCDF6892989595E0058FE23 /* CodePushJWTAlgorithm.h */,
+				BBCDF68A2989595E0058FE23 /* CodePushJWTAlgorithmNone.h */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BBCDF68B2989595E0058FE23 /* Supplement */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF68C2989595E0058FE23 /* CodePushJWTBase64Coder.h */,
+				BBCDF68D2989595E0058FE23 /* CodePushJWTErrorDescription.h */,
+				BBCDF68E2989595E0058FE23 /* CodePushJWTDeprecations.h */,
+				BBCDF68F2989595E0058FE23 /* CodePushJWTBase64Coder.m */,
+				BBCDF6902989595E0058FE23 /* CodePushJWTErrorDescription.m */,
+			);
+			path = Supplement;
+			sourceTree = "<group>";
+		};
+		BBCDF6912989595E0058FE23 /* Coding */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF6922989595E0058FE23 /* CodePushJWTCoding.h */,
+				BBCDF6932989595E0058FE23 /* CodePushJWTCoding+VersionThree.h */,
+				BBCDF6942989595E0058FE23 /* CodePushJWTCoding+VersionOne.h */,
+				BBCDF6952989595E0058FE23 /* CodePushJWTCoding+ResultTypes.h */,
+				BBCDF6962989595E0058FE23 /* CodePushJWTCoding+VersionTwo.m */,
+				BBCDF6972989595E0058FE23 /* CodePushJWTCoding+VersionThree.m */,
+				BBCDF6982989595E0058FE23 /* CodePushJWTCoding.m */,
+				BBCDF6992989595E0058FE23 /* CodePushJWTCoding+ResultTypes.m */,
+				BBCDF69A2989595E0058FE23 /* CodePushJWTCoding+VersionOne.m */,
+				BBCDF69B2989595E0058FE23 /* CodePushJWTCoding+VersionTwo.h */,
+			);
+			path = Coding;
+			sourceTree = "<group>";
+		};
+		BBCDF6E529895AF60058FE23 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF6E629895B0F0058FE23 /* Base.swift */,
+				BBCDF6EC29895CF80058FE23 /* CapacitorCommunityUrlRequest.swift */,
+				BBCDF6E829895C130058FE23 /* FilesystemUtils.swift */,
+				BBCDF6EA29895CBB0058FE23 /* HttpRequestHandler.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -135,7 +450,42 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50ADFF99201F53D600D50D53 /* Plugin.h in Headers */,
+				BBCDF6AD2989595E0058FE23 /* CodePush.h in Headers */,
+				BBCDF6DA2989595F0058FE23 /* CodePushJWTCoding+ResultTypes.h in Headers */,
+				BBCDF6BB2989595E0058FE23 /* CodePushJWT.h in Headers */,
+				BBCDF6A72989595E0058FE23 /* CodePushPlugin.h in Headers */,
+				BBCDF6D72989595E0058FE23 /* CodePushJWTCoding.h in Headers */,
+				BBCDF6E02989595F0058FE23 /* CodePushJWTCoding+VersionTwo.h in Headers */,
+				BBCDF6B32989595E0058FE23 /* CodePushJWTClaimsSetSerializer.h in Headers */,
+				BBCDF6CA2989595E0058FE23 /* CodePushJWTCryptoSecurity.h in Headers */,
+				BBCDF6E22989595F0058FE23 /* UpdateHashUtils.h in Headers */,
+				BBCDF6AF2989595E0058FE23 /* CodePushMF_Base64Additions.h in Headers */,
+				BBCDF6CC2989595E0058FE23 /* CodePushJWTAlgorithmESBase.h in Headers */,
+				BBCDF6C02989595E0058FE23 /* CodePushJWTAlgorithmHSBase.h in Headers */,
+				BBCDF6D22989595E0058FE23 /* CodePushJWTBase64Coder.h in Headers */,
+				BBCDF6E32989595F0058FE23 /* InstallOptions.h in Headers */,
+				BBCDF6C52989595E0058FE23 /* CodePushJWTCryptoKey.h in Headers */,
+				BBCDF6D92989595F0058FE23 /* CodePushJWTCoding+VersionOne.h in Headers */,
+				BBCDF6E42989595F0058FE23 /* CodePushReportingManager.h in Headers */,
+				BBCDF6AB2989595E0058FE23 /* StatusReport.h in Headers */,
+				BBCDF6D82989595F0058FE23 /* CodePushJWTCoding+VersionThree.h in Headers */,
+				BBCDF6C22989595E0058FE23 /* CodePushJWTAlgorithmRSBase.h in Headers */,
+				BBCDF6A12989595E0058FE23 /* CodePushPackageManager.h in Headers */,
+				BBCDF6C32989595E0058FE23 /* CodePushJWTRSAlgorithm.h in Headers */,
+				BBCDF6B82989595E0058FE23 /* CodePushJWTClaim.h in Headers */,
+				BBCDF6AC2989595E0058FE23 /* Utilities.h in Headers */,
+				BBCDF6D12989595E0058FE23 /* CodePushJWTAlgorithmNone.h in Headers */,
+				BBCDF6BD2989595E0058FE23 /* CodePushJWTAlgorithmDataHolder.h in Headers */,
+				BBCDF6C82989595E0058FE23 /* CodePushJWTCryptoKeyExtractor.h in Headers */,
+				BBCDF6CF2989595E0058FE23 /* CodePushJWTAlgorithmFactory.h in Headers */,
+				BBCDF6A02989595E0058FE23 /* InstallMode.h in Headers */,
+				BBCDF6AE2989595E0058FE23 /* CodePushPackageMetadata.h in Headers */,
+				BBCDF6D02989595E0058FE23 /* CodePushJWTAlgorithm.h in Headers */,
+				BBCDF6BE2989595E0058FE23 /* CodePushJWTAlgorithmDataHolderChain.h in Headers */,
+				BBCDF6D32989595E0058FE23 /* CodePushJWTErrorDescription.h in Headers */,
+				BBCDF6D42989595E0058FE23 /* CodePushJWTDeprecations.h in Headers */,
+				BBCDF6B52989595E0058FE23 /* CodePushJWTClaimsSet.h in Headers */,
+				BBCDF6B92989595E0058FE23 /* CodePushJWTClaimsSetVerifier.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +576,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBCDF6E12989595F0058FE23 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,13 +635,13 @@
 				"${PODS_ROOT}/Target Support Files/Pods-PluginTests/Pods-PluginTests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Capacitor/Capacitor.framework",
 				"${BUILT_PRODUCTS_DIR}/CapacitorCordova/Cordova.framework",
-				"${PODS_ROOT}/naveridlogin-sdk-ios/NaverThirdPartyLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/SSZipArchive/SSZipArchive.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Capacitor.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cordova.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NaverThirdPartyLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SSZipArchive.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -304,8 +655,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50E1A94820377CB70090CE1A /* Plugin.swift in Sources */,
-				50ADFFA82020EE4F00D50D53 /* Plugin.m in Sources */,
+				BBCDF6A52989595E0058FE23 /* CDVWKWebViewEngine+CodePush.m in Sources */,
+				BBCDF6B42989595E0058FE23 /* CodePushJWTClaim.m in Sources */,
+				BBCDF6D62989595E0058FE23 /* CodePushJWTErrorDescription.m in Sources */,
+				BBCDF6CB2989595E0058FE23 /* CodePushJWTAlgorithmESBase.m in Sources */,
+				BBCDF6A32989595E0058FE23 /* StatusReport.m in Sources */,
+				BBCDF6B72989595E0058FE23 /* CodePushJWTClaimsSetSerializer.m in Sources */,
+				BBCDF6A22989595E0058FE23 /* CodePushPackageManager.m in Sources */,
+				BBCDF6A92989595E0058FE23 /* CodePushPlugin.m in Sources */,
+				BBCDF6BF2989595E0058FE23 /* CodePushJWTAlgorithmDataHolder.m in Sources */,
+				BBCDF6A82989595E0058FE23 /* CodePushPackageMetadata.m in Sources */,
+				BBCDF6C72989595E0058FE23 /* CodePushJWTCryptoSecurity.m in Sources */,
+				BBCDF6E729895B0F0058FE23 /* Base.swift in Sources */,
+				BBCDF6CD2989595E0058FE23 /* CodePushJWTAlgorithmFactory.m in Sources */,
+				BBCDF6B62989595E0058FE23 /* CodePushJWTClaimsSetVerifier.m in Sources */,
+				BBCDF6E929895C130058FE23 /* FilesystemUtils.swift in Sources */,
+				BBCDF6B12989595E0058FE23 /* Utilities.m in Sources */,
+				BBCDF6AA2989595E0058FE23 /* InstallOptions.m in Sources */,
+				BBCDF6DE2989595F0058FE23 /* CodePushJWTCoding+ResultTypes.m in Sources */,
+				BBCDF6ED29895CF80058FE23 /* CapacitorCommunityUrlRequest.swift in Sources */,
+				BBCDF6A42989595E0058FE23 /* UpdateHashUtils.m in Sources */,
+				BBCDF6BC2989595E0058FE23 /* CodePushJWTAlgorithmDataHolderChain.m in Sources */,
+				BBCDF6DD2989595F0058FE23 /* CodePushJWTCoding.m in Sources */,
+				BBCDF6C62989595E0058FE23 /* CodePushJWTCryptoKeyExtractor.m in Sources */,
+				BBCDF6C42989595E0058FE23 /* CodePushJWTAlgorithmRSBase.m in Sources */,
+				BBCDF6EB29895CBB0058FE23 /* HttpRequestHandler.swift in Sources */,
+				BBCDF6BA2989595E0058FE23 /* CodePushJWTClaimsSet.m in Sources */,
+				BBCDF6A62989595E0058FE23 /* CodePushReportingManager.m in Sources */,
+				BBCDF6DF2989595F0058FE23 /* CodePushJWTCoding+VersionOne.m in Sources */,
+				BBCDF6DC2989595F0058FE23 /* CodePushJWTCoding+VersionThree.m in Sources */,
+				BBCDF6DB2989595F0058FE23 /* CodePushJWTCoding+VersionTwo.m in Sources */,
+				BBCDF6C92989595E0058FE23 /* CodePushJWTCryptoKey.m in Sources */,
+				BBCDF6CE2989595E0058FE23 /* CodePushJWTAlgorithmNone.m in Sources */,
+				BBCDF6C12989595E0058FE23 /* CodePushJWTAlgorithmHSBase.m in Sources */,
+				BBCDF6B02989595E0058FE23 /* CodePushMF_Base64Additions.m in Sources */,
+				BBCDF6D52989595E0058FE23 /* CodePushJWTBase64Coder.m in Sources */,
+				BBCDF6B22989595E0058FE23 /* CodePush.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +698,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50ADFF97201F53D600D50D53 /* PluginTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +761,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -431,7 +815,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -454,7 +838,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Plugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)\n$(FRAMEWORK_SEARCH_PATHS)\n$(FRAMEWORK_SEARCH_PATHS)";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.Plugin;
@@ -479,7 +863,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Plugin/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.Plugin;
@@ -497,6 +881,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PluginTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.PluginTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,6 +897,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PluginTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.PluginTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,6 +1,6 @@
 #import <Capacitor/Capacitor-Swift.h>
 #import <Capacitor/Capacitor.h>
-#import <SSZipArchive/SSZipArchive.h>
+#import "SSZipArchive/SSZipArchive.h"
 #import "CodePush.h"
 #import "CodePushPackageMetadata.h"
 #import "CodePushPackageManager.h"
@@ -11,6 +11,7 @@
 #import "StatusReport.h"
 #import "UpdateHashUtils.h"
 #import "CodePushJWT.h"
+#import <Plugin/Plugin-Swift.h>
 
 
 
@@ -510,6 +511,11 @@ StatusReport* rollbackStatusReport = nil;
     } else {
         [call reject:@"Failed to unzip": nil : nil : @{}];
     }
+}
+
+
+- (void)downloadFile:(CAPPluginCall *)call {
+    [HttpBase downloadFile:call:self];
 }
 
 @end

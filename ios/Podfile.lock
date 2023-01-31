@@ -1,17 +1,17 @@
 PODS:
-  - Capacitor (3.0.0-beta.1):
+  - Capacitor (4.6.2):
     - CapacitorCordova
-  - CapacitorCordova (3.0.0-beta.1)
-  - naveridlogin-sdk-ios (4.1.3)
+  - CapacitorCordova (4.6.2)
+  - SSZipArchive (2.4.3)
 
 DEPENDENCIES:
   - "Capacitor (from `../node_modules/@capacitor/ios`)"
   - "CapacitorCordova (from `../node_modules/@capacitor/ios`)"
-  - naveridlogin-sdk-ios (= 4.1.3)
+  - SSZipArchive
 
 SPEC REPOS:
   trunk:
-    - naveridlogin-sdk-ios
+    - SSZipArchive
 
 EXTERNAL SOURCES:
   Capacitor:
@@ -20,10 +20,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@capacitor/ios"
 
 SPEC CHECKSUMS:
-  Capacitor: 6cc2d51ca434c0ec2371c813f08d8dddf7905ef1
-  CapacitorCordova: 226d15069f4d3c8caa639b5aaa7ad14ffdc4f06e
-  naveridlogin-sdk-ios: b9d7c20677981177ed994ecb1c8c2b49f223277d
+  Capacitor: a83814f7b8678d3fbb8989324f51b442eafdb6f7
+  CapacitorCordova: 855dd572d01508c8992d5470e0dfe33ebb169c4d
+  SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
 
-PODFILE CHECKSUM: 7724088071fbeb8a7b4001fcc1d903a203616cef
+PODFILE CHECKSUM: 201a566997c026ece3c96ea9a934f957d746b88f
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.11.3
