@@ -1,4 +1,5 @@
 import { InstallOptions } from "./installOptions";
+import { HttpDownloadFileOptions, HttpDownloadFileResult } from "./http";
 interface StatusReport {
     status: number;
     label: string;
@@ -50,6 +51,7 @@ export interface NativeCodePushPlugin {
     getNativeBuildTime(): Promise<PluginCallResponse<string>>;
     unzip(options: NativeUnzipOptions): Promise<void>;
     addListener(eventName: "codePushStatus", listenerFunc: (info: any) => void): void;
+    downloadFile(options: HttpDownloadFileOptions): Promise<HttpDownloadFileResult>;
 }
 export declare const CodePush: NativeCodePushPlugin;
 export {};

@@ -1,37 +1,35 @@
 import { Callback } from "./callbackUtil";
-
-export const enum Verb {
-    GET, HEAD, POST, PUT, DELETE, TRACE, OPTIONS, CONNECT, PATCH
+export declare const enum Verb {
+    GET = 0,
+    HEAD = 1,
+    POST = 2,
+    PUT = 3,
+    DELETE = 4,
+    TRACE = 5,
+    OPTIONS = 6,
+    CONNECT = 7,
+    PATCH = 8
 }
-
 export interface Response {
     statusCode: number;
     body?: string;
 }
-
 export interface Requester {
     request(verb: Verb, url: string, callback: Callback<Response>): void;
     request(verb: Verb, url: string, requestBody: string, callback: Callback<Response>): void;
 }
-
-
-/* FIXME: Remove below when download implemented in @capacitor/filesystem */
 import { Directory } from "@capacitor/filesystem";
-type HttpResponseType = "arraybuffer" | "blob" | "json" | "text" | "document";
-
+declare type HttpResponseType = "arraybuffer" | "blob" | "json" | "text" | "document";
 export interface HttpParams {
     [key: string]: string | string[];
 }
-
 export interface HttpHeaders {
     [key: string]: string;
 }
-
 export interface HttpDownloadFileResult {
     path?: string;
     blob?: Blob;
 }
-
 export interface HttpOptions {
     url: string;
     method?: string;
@@ -84,3 +82,4 @@ export interface HttpDownloadFileOptions extends HttpOptions {
      */
     progress?: Boolean;
 }
+export {};

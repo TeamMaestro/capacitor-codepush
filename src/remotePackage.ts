@@ -6,7 +6,7 @@ import { DownloadProgress, ILocalPackage, IRemotePackage, Package } from "./pack
 import { Sdk } from "./sdk";
 import { Directory, Filesystem } from "@capacitor/filesystem";
 import { FileUtil } from "./fileUtil";
-import { Http } from "@capacitor-community/http";
+import { CodePush } from "./nativeCodePushPlugin";
 
 /**
  * Defines a remote package, which represents an update package available for download.
@@ -52,7 +52,7 @@ export class RemotePackage extends Package implements IRemotePackage {
         await Filesystem.deleteFile({ directory: Directory.Data, path: file });
       }
 
-      await Http.downloadFile({
+      await CodePush.downloadFile({
         url: this.downloadUrl,
         method: "GET",
         filePath: file,

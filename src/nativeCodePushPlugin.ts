@@ -7,6 +7,7 @@
 
 import { InstallOptions } from "./installOptions";
 import { registerPlugin } from "@capacitor/core";
+import { HttpDownloadFileOptions, HttpDownloadFileResult } from "./http";
 
 interface StatusReport {
     status: number;
@@ -68,6 +69,9 @@ export interface NativeCodePushPlugin {
     unzip(options: NativeUnzipOptions): Promise<void>;
 
     addListener(eventName: "codePushStatus", listenerFunc: (info: any) => void): void;
+
+    /* FIXME: to remove when implemented in @capacitor/filesystem (along with http submodule) */
+    downloadFile(options: HttpDownloadFileOptions): Promise<HttpDownloadFileResult>;
 }
 
 export const CodePush = /*#__PURE__*/ registerPlugin<NativeCodePushPlugin>("CodePush");
