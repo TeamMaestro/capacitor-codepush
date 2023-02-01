@@ -68,7 +68,7 @@
     "typescript": "~4.2.4"
   },
   "dependencies": {
-    "code-push": "^4.1.0"
+    "code-push": "4.0.5"
   },
   "peerDependencies": {
     "@capacitor/core": "^4.0.0",

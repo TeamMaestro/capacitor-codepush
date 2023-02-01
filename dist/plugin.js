@@ -455,21 +455,21 @@ var capacitorPlugin = (function (exports, acquisitionSdk, filesystem, core, devi
          */
         getHttpMethodName(verb) {
             switch (verb) {
-                case acquisitionSdk.Http.Verb.GET:
+                case 0 /* GET */:
                     return "GET";
-                case acquisitionSdk.Http.Verb.DELETE:
+                case 4 /* DELETE */:
                     return "DELETE";
-                case acquisitionSdk.Http.Verb.HEAD:
+                case 1 /* HEAD */:
                     return "HEAD";
-                case acquisitionSdk.Http.Verb.PATCH:
+                case 8 /* PATCH */:
                     return "PATCH";
-                case acquisitionSdk.Http.Verb.POST:
+                case 2 /* POST */:
                     return "POST";
-                case acquisitionSdk.Http.Verb.PUT:
+                case 3 /* PUT */:
                     return "PUT";
-                case acquisitionSdk.Http.Verb.TRACE:
-                case acquisitionSdk.Http.Verb.OPTIONS:
-                case acquisitionSdk.Http.Verb.CONNECT:
+                case 5 /* TRACE */:
+                case 6 /* OPTIONS */:
+                case 7 /* CONNECT */:
                 default:
                     return null;
             }
