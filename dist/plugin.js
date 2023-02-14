@@ -1,4 +1,4 @@
-var capacitorPlugin = (function (exports, acquisitionSdk, filesystem, core, http, device, dialog) {
+var capacitorPlugin = (function (exports, acquisitionSdk, filesystem, core, device, dialog) {
     'use strict';
 
     /**
@@ -442,7 +442,7 @@ var capacitorPlugin = (function (exports, acquisitionSdk, filesystem, core, http
             else {
                 options.data = requestBody;
             }
-            http.Http.request(options).then((nativeRes) => {
+            core.CapacitorHttp.request(options).then((nativeRes) => {
                 if (typeof nativeRes.data === "object")
                     nativeRes.data = JSON.stringify(nativeRes.data);
                 var response = { statusCode: nativeRes.status, body: nativeRes.data };
@@ -1112,7 +1112,7 @@ var capacitorPlugin = (function (exports, acquisitionSdk, filesystem, core, http
                     if (yield FileUtil.fileExists(filesystem.Directory.Data, file)) {
                         yield filesystem.Filesystem.deleteFile({ directory: filesystem.Directory.Data, path: file });
                     }
-                    yield http.Http.downloadFile({
+                    yield CodePush$1.downloadFile({
                         url: this.downloadUrl,
                         method: "GET",
                         filePath: file,
@@ -1643,5 +1643,5 @@ var capacitorPlugin = (function (exports, acquisitionSdk, filesystem, core, http
 
     return exports;
 
-})({}, acquisitionSdk, filesystem, capacitorExports, http, device, dialog);
+})({}, acquisitionSdk, filesystem, capacitorExports, device, dialog);
 //# sourceMappingURL=plugin.js.map

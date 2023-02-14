@@ -1,3 +1,4 @@
+#import "Foundation/Foundation.h"
 #import "InstallMode.h"
 
 @interface InstallOptions : NSObject

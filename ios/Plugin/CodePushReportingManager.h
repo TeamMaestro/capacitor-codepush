@@ -1,4 +1,6 @@
+#import "Foundation/Foundation.h"
 #import "StatusReport.h"
+#import <UIKit/UIKit.h>
 
 @interface CodePushReportingManager : NSObject
 

@@ -1,3 +1,4 @@
+#import "Foundation/Foundation.h"
 #import "Utilities.h"
 
 @implementation Utilities

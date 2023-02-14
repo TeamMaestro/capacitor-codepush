@@ -1,5 +1,7 @@
 #import "CodePushReportingManager.h"
+#import "Foundation/Foundation.h"
 #import "StatusReport.h"
+#import <UIKit/UIKit.h>
 
 #pragma GCC diagnostic ignored "-Wundeclared-selector"
 

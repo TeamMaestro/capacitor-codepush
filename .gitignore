@@ -7,3 +7,10 @@ bin/*
 
 #ignore the test output files
 test-*
+
+# iOS files
+Pods
+Build
+xcuserdata
+xcshareddata
+DerivedData
