@@ -27,7 +27,7 @@ public class HttpRequestHandler extends com.getcapacitor.plugin.util.HttpRequest
      * @throws IOException throws an IO request when a connection can't be made
      * @throws URISyntaxException thrown when the URI is malformed
      */
-    public static JSObject downloadFile(PluginCall call, Context context, ProgressEmitter progress)
+    public static void downloadFile(PluginCall call, Context context, ProgressEmitter progress)
             throws IOException, URISyntaxException, JSONException {
         String urlString = call.getString("url");
         String method = call.getString("method", "GET").toUpperCase();
@@ -78,11 +78,11 @@ public class HttpRequestHandler extends com.getcapacitor.plugin.util.HttpRequest
         connectionInputStream.close();
         fileOutputStream.close();
 
-        return new JSObject() {
+        call.resolve(new JSObject() {
             {
                 put("path", file.getAbsolutePath());
             }
-        };
+        });
     }
 
 

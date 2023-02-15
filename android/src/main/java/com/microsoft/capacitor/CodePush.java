@@ -92,8 +92,7 @@ public class CodePush extends Plugin {
                     };
                 }
 
-                JSObject response = HttpRequestHandler.downloadFile(call, getContext(), emitter);
-                call.resolve(response);
+                HttpRequestHandler.downloadFile(call, getContext(), emitter);
             }
         } catch (MalformedURLException ex) {
             call.reject("Invalid URL", ex);
