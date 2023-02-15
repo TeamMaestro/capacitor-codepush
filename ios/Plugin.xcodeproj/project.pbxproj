@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		03FC29A292ACC40490383A1F /* Pods_Plugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */; };
 		20C0B05DCFC8E3958A738AF2 /* Pods_PluginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6753A823D3815DB436415E3 /* Pods_PluginTests.framework */; };
-		50ADFF92201F53D600D50D53 /* DwimcoreCapacitorCodepush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFF88201F53D600D50D53 /* DwimcoreCapacitorCodepush.framework */; };
+		50ADFF92201F53D600D50D53 /* TeammaestroCapacitorCodepush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFF88201F53D600D50D53 /* TeammaestroCapacitorCodepush.framework */; };
 		50ADFFA42020D75100D50D53 /* Capacitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ADFFA52020D75100D50D53 /* Capacitor.framework */; };
 		BBCDF6A02989595E0058FE23 /* InstallMode.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF64D2989595E0058FE23 /* InstallMode.h */; };
 		BBCDF6A12989595E0058FE23 /* CodePushPackageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCDF64E2989595E0058FE23 /* CodePushPackageManager.h */; };
@@ -98,7 +98,7 @@
 
 /* Begin PBXFileReference section */
 		3B2A61DA5A1F2DD4F959604D /* Pods_Plugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Plugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50ADFF88201F53D600D50D53 /* DwimcoreCapacitorCodepush.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DwimcoreCapacitorCodepush.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50ADFF88201F53D600D50D53 /* TeammaestroCapacitorCodepush.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TeammaestroCapacitorCodepush.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50ADFF91201F53D600D50D53 /* PluginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PluginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50ADFFA52020D75100D50D53 /* Capacitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Capacitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E23F77F099397094342571A /* Pods-Plugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Plugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Plugin/Pods-Plugin.debug.xcconfig"; sourceTree = "<group>"; };
@@ -195,7 +195,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50ADFF92201F53D600D50D53 /* DwimcoreCapacitorCodepush.framework in Frameworks */,
+				50ADFF92201F53D600D50D53 /* TeammaestroCapacitorCodepush.framework in Frameworks */,
 				20C0B05DCFC8E3958A738AF2 /* Pods_PluginTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +216,7 @@
 		50ADFF89201F53D600D50D53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				50ADFF88201F53D600D50D53 /* DwimcoreCapacitorCodepush.framework */,
+				50ADFF88201F53D600D50D53 /* TeammaestroCapacitorCodepush.framework */,
 				50ADFF91201F53D600D50D53 /* PluginTests.xctest */,
 			);
 			name = Products;
@@ -492,9 +492,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		50ADFF87201F53D600D50D53 /* DwimcoreCapacitorCodepush */ = {
+		50ADFF87201F53D600D50D53 /* TeammaestroCapacitorCodepush */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50ADFF9C201F53D600D50D53 /* Build configuration list for PBXNativeTarget "DwimcoreCapacitorCodepush" */;
+			buildConfigurationList = 50ADFF9C201F53D600D50D53 /* Build configuration list for PBXNativeTarget "TeammaestroCapacitorCodepush" */;
 			buildPhases = (
 				AB5B3E54B4E897F32C2279DA /* [CP] Check Pods Manifest.lock */,
 				50ADFF83201F53D600D50D53 /* Sources */,
@@ -506,9 +506,9 @@
 			);
 			dependencies = (
 			);
-			name = DwimcoreCapacitorCodepush;
+			name = TeammaestroCapacitorCodepush;
 			productName = Plugin;
-			productReference = 50ADFF88201F53D600D50D53 /* DwimcoreCapacitorCodepush.framework */;
+			productReference = 50ADFF88201F53D600D50D53 /* TeammaestroCapacitorCodepush.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		50ADFF90201F53D600D50D53 /* PluginTests */ = {
@@ -565,7 +565,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				50ADFF87201F53D600D50D53 /* DwimcoreCapacitorCodepush */,
+				50ADFF87201F53D600D50D53 /* TeammaestroCapacitorCodepush */,
 				50ADFF90201F53D600D50D53 /* PluginTests */,
 			);
 		};
@@ -706,7 +706,7 @@
 /* Begin PBXTargetDependency section */
 		50ADFF94201F53D600D50D53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 50ADFF87201F53D600D50D53 /* DwimcoreCapacitorCodepush */;
+			target = 50ADFF87201F53D600D50D53 /* TeammaestroCapacitorCodepush */;
 			targetProxy = 50ADFF93201F53D600D50D53 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -768,7 +768,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "DwimcoreCapacitorCodepush-Swift.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "TeammaestroCapacitorCodepush-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -823,7 +823,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "DwimcoreCapacitorCodepush-Swift.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "TeammaestroCapacitorCodepush-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -848,10 +848,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)\n$(FRAMEWORK_SEARCH_PATHS)\n$(FRAMEWORK_SEARCH_PATHS)";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.Plugin;
-				PRODUCT_MODULE_NAME = DwimcoreCapacitorCodepush;
+				PRODUCT_MODULE_NAME = TeammaestroCapacitorCodepush;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "DwimcoreCapacitorCodepush-Swift.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "TeammaestroCapacitorCodepush-Swift.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -875,10 +875,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.getcapacitor.Plugin;
-				PRODUCT_MODULE_NAME = DwimcoreCapacitorCodepush;
+				PRODUCT_MODULE_NAME = TeammaestroCapacitorCodepush;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "DwimcoreCapacitorCodepush-Swift.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "TeammaestroCapacitorCodepush-Swift.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -928,7 +928,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50ADFF9C201F53D600D50D53 /* Build configuration list for PBXNativeTarget "DwimcoreCapacitorCodepush" */ = {
+		50ADFF9C201F53D600D50D53 /* Build configuration list for PBXNativeTarget "TeammaestroCapacitorCodepush" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				50ADFF9D201F53D600D50D53 /* Debug */,

@@ -1,6 +1,7 @@
 {
-  "name": "@dwimcore/capacitor-codepush",
+  "name": "@teammaestro/capacitor-codepush",
   "version": "4.0.1",
+  "private": true,
   "description": "CodePush Plugin for Capacitor Forked from MAPIACOMPANY",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",

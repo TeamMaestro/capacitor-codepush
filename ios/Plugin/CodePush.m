@@ -11,7 +11,7 @@
 #import "StatusReport.h"
 #import "UpdateHashUtils.h"
 #import "CodePushJWT.h"
-#import <DwimcoreCapacitorCodepush/DwimcoreCapacitorCodepush-Swift.h>
+#import <TeammaestroCapacitorCodepush/TeammaestroCapacitorCodepush-Swift.h>
 
 
 
