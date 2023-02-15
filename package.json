@@ -1,15 +1,11 @@
 {
   "name": "@teammaestro/capacitor-codepush",
   "version": "4.0.1",
-  "private": true,
   "description": "CodePush Plugin for Capacitor Forked from MAPIACOMPANY",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
-  "homepage": "https://github.com/mapiacompany/capacitor-codepush",
-  "repository": "https://github.com/Dwimcore/capacitor-codepush.git",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+  "homepage": "https://github.com/teammaestro/capacitor-codepush",
+  "repository": "https://github.com/teammaestro/capacitor-codepush.git",
   "scripts": {
     "lint": "npm run prettier -- --check && npm run swiftlint -- lint",
     "prettier": "prettier \"**/*.{css,html,ts,js,java}\"",
