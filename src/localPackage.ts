@@ -1,5 +1,5 @@
 import { Directory, Filesystem, GetUriOptions } from "@capacitor/filesystem";
-import { AcquisitionStatus } from "code-push/script/acquisition-sdk";
+import { AcquisitionStatus } from "./acquisition-sdk";
 import { Callback, ErrorCallback, SuccessCallback } from "./callbackUtil";
 import { CodePushUtil } from "./codePushUtil";
 import { FileUtil } from "./fileUtil";

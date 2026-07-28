@@ -1,4 +1,4 @@
-import { AcquisitionStatus, NativeUpdateNotification } from "code-push/script/acquisition-sdk";
+import { AcquisitionStatus, NativeUpdateNotification } from "./acquisition-sdk";
 import { Callback, ErrorCallback, SuccessCallback } from "./callbackUtil";
 import { CodePushUtil } from "./codePushUtil";
 import { InstallMode } from "./installMode";

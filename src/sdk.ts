@@ -1,4 +1,4 @@
-import { AcquisitionManager, Configuration } from "code-push/script/acquisition-sdk";
+import { AcquisitionManager, Configuration } from "./acquisition-sdk";
 import { Callback } from "./callbackUtil";
 import { HttpRequester } from "./httpRequester";
 import { NativeAppInfo } from "./nativeAppInfo";

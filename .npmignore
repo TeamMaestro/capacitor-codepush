@@ -8,3 +8,8 @@ samples/*
 test/*
 www/*
 bin/test/*
+
+# Generated native dependency artifacts
+ios/Pods
+ios/Pods/**
+ios/xcuserdata

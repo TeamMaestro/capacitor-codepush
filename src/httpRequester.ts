@@ -1,4 +1,4 @@
-import { Http } from "code-push/script/acquisition-sdk";
+import { Http } from "./acquisition-sdk";
 import type { Callback } from "./callbackUtil";
 import type { HttpResponse, HttpOptions } from "@capacitor/core";
 import { CapacitorHttp as NativeHttp } from "@capacitor/core";

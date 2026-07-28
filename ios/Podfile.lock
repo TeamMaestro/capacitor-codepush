@@ -1,7 +1,7 @@
 PODS:
-  - Capacitor (4.6.2):
+  - Capacitor (8.4.2):
     - CapacitorCordova
-  - CapacitorCordova (4.6.2)
+  - CapacitorCordova (8.4.2)
   - SSZipArchive (2.4.3)
 
 DEPENDENCIES:
@@ -20,10 +20,10 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@capacitor/ios"
 
 SPEC CHECKSUMS:
-  Capacitor: a83814f7b8678d3fbb8989324f51b442eafdb6f7
-  CapacitorCordova: 855dd572d01508c8992d5470e0dfe33ebb169c4d
+  Capacitor: 7a1ef4c3b846b5f32437a2b3e11803c1c702a6c5
+  CapacitorCordova: 345eacdc4c8282415446aea4acd8c77d82480bd4
   SSZipArchive: fe6a26b2a54d5a0890f2567b5cc6de5caa600aef
 
-PODFILE CHECKSUM: 201a566997c026ece3c96ea9a934f957d746b88f
+PODFILE CHECKSUM: 86e0b15c736c221aba30461d42e981019ab7d3bd
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.12.1
