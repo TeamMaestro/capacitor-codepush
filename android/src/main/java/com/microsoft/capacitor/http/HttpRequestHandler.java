@@ -33,8 +33,8 @@ public class HttpRequestHandler extends com.getcapacitor.plugin.util.HttpRequest
         String method = call.getString("method", "GET").toUpperCase();
         String filePath = call.getString("filePath");
         String fileDirectory = call.getString("fileDirectory", FilesystemUtils.DIRECTORY_DOCUMENTS);
-        JSObject headers = call.getObject("headers");
-        JSObject params = call.getObject("params");
+        JSObject headers = call.getObject("headers", new JSObject());
+        JSObject params = call.getObject("params", new JSObject());
         Integer connectTimeout = call.getInt("connectTimeout");
         Integer readTimeout = call.getInt("readTimeout");
 
